@@ -10,6 +10,8 @@ import org.example.soapservice.model.GetHelloResponse;
 @Endpoint
 public class HelloEndpoint {
 
+    // Para consumirlo ir a http://localhost:8080/ws/hello.wsdl
+
     private static final String NAMESPACE_URI = "http://example.com/hello";
 
     // Mapea las peticiones cuyo elemento raíz es "getHelloRequest"
