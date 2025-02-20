@@ -1,0 +1,8 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:keystore.jks
+    key-store-password: asdf1357
+    key-store-type: JKS
+    key-alias: mi_certificado
